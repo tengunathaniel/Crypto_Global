@@ -10,7 +10,7 @@
 	}
 
 	c.isAccessibilityEnabled = $window.g_accessibility;
-
+	
 	$scope.setDefaultValue = !$scope.data.is_cart_item && !$scope.data.is_wishlist_item;
 
 	$scope.disableControls = function(){
@@ -49,6 +49,16 @@
 			$window.open("/sp_config?id=form&table=" + item.table + "&sys_id=" + item.sys_id); }]
 	];
 
+	
+	debugger;
+	spUtil.recordWatch($scope, "sc_cat_item", "sys_id=" +$scope.data.sys_id, function(response, data){
+		
+		if(response.data.operation == "update"){
+			c.server.refresh();
+		}
+	});
+
+
 	spUtil.recordWatch($scope, "sys_attachment", "table_sys_id=" + $scope.data._generatedItemGUID, function(response, data) {
 		$scope.attachmentHandler.getAttachmentList();
 		if (response.data) {
@@ -60,8 +70,8 @@
 				$rootScope.$broadcast("$$uiNotification", {type: 'error', message: i18n.getMessage('Upload file scan failed').withValues([options.filename])});
 		}
 	});
-	
-	
+
+
 
 	$rootScope.$on('spModel.gForm.rendered', function() {
 		$timeout(function() {
@@ -207,9 +217,6 @@
 			((c.data.sc_cat_item.price ? true : false) || (c.data.sc_cat_item.recurring_price ? true : false));
 	};
 
-	c.reloadPrices = function(){
-		
-	};
 	c.showDeliveryTime = function() {
 		return !c.data.hideDeliveryTime && 
 			!c.data.sc_cat_item.no_delivery_time && 
@@ -584,7 +591,7 @@
 			}
 			$rootScope.$broadcast("$sp.service_catalog.wishlist.add_item");
 			$rootScope.$broadcast("$sp.service_catalog.wishlist.update", cartItemId);
-			if (!$scope.data.is_wishlist_item) 	
+			if (!$scope.data.is_wishlist_item)
 				$scope.clearAttachmentFields();
 			g_form.$private.userState.clearModifiedFields();
 			$scope.data.showMsg = $scope.is_update_wishlist = true;
@@ -2007,14 +2014,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-26 14:29:50</sys_created_on>
         <sys_id>a2e9d3d287c345109536ca67dabb35f0</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Crypto SC Catalog Item</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Crypto_Global">3e3913d287c345109536ca67dabb3555</sys_scope>
         <sys_update_name>sp_widget_a2e9d3d287c345109536ca67dabb35f0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-26 15:47:14</sys_updated_on>
+        <sys_updated_on>2022-04-26 17:38:46</sys_updated_on>
         <template><![CDATA[<div id="sc_cat_item" ng-if="::(data.recordFound && !data.not_for_mobile)" sn-atf-blacklist="IS_SERVICE_CATALOG">
   <sp-widget widget="c.orderItemModal" ng-if="c.orderItemModal"></sp-widget>
   <div class="row" ng-if="::data.sc_cat_item" ng-class="{'native-mobile': options.native_mobile == 'true'}">
@@ -2101,7 +2108,7 @@
             </div>
             <div class="m-b" ng-if="c.showPrice()" >
               <b>${Price}</b>
-              <div ng-if="c.reloadPrices()">
+              <div>
                 {{data.sc_cat_item.price_display}}<em ng-if="data.sc_cat_item.recurring_price" class="cat_item_price"> {{data.sc_cat_item.price ? '+' : ''}} {{data.sc_cat_item.recurring_price_display + ' ' + data.sc_cat_item.recurring_price_frequency}}</em>
               </div>
             </div>
