@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables>$sp-logo-margin-x: 		15px !default;&#13;
+$sp-tagline-color:		$text-color !default;&#13;
+$navbar-inverse-bg: 	#3a3f51 !default;&#13;
+$navbar-inverse-link-color: #bdc0c4 !default;&#13;
+$navbar-inverse-link-hover-color: #ffffff !default;&#13;
+$dropdown-link-disabled-color: #ccc;</css_variables>
+        <footer/>
+        <footer_fixed>false</footer_fixed>
+        <header display_value="Crypto Header">a688f7ee874301109536ca67dabb3558</header>
+        <name>Stock TTM</name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2015-05-08 15:28:45</sys_created_on>
+        <sys_id>79315153cb33310000f8d856634c9c4b</sys_id>
+        <sys_mod_count>110</sys_mod_count>
+        <sys_name>Stock TTM</sys_name>
+        <sys_package display_value="Service Portal - Core" source="com.glide.service-portal">c52ac0fd21920110a866589604c20d59</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto_Global">3e3913d287c345109536ca67dabb3555</sys_scope>
+        <sys_update_name>sp_theme_79315153cb33310000f8d856634c9c4b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 14:26:19</sys_updated_on>
+    </sp_theme>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Crypto_Global">3e3913d287c345109536ca67dabb3555</claim_owner_scope>
+        <claim_timestamp>1806ac473770000001</claim_timestamp>
+        <metadata_update_name>sp_theme_79315153cb33310000f8d856634c9c4b</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Crypto_Global</previous_claim_name>
+        <previous_claim_scope>3e3913d287c345109536ca67dabb3555</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-27 11:25:01</sys_created_on>
+        <sys_id>3c393322878301109536ca67dabb35d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 11:25:01</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Crypto_Global">3e3913d287c345109536ca67dabb3555</claim_owner_scope>
+        <claim_timestamp>1806ac473700000001</claim_timestamp>
+        <metadata_update_name>sp_theme_79315153cb33310000f8d856634c9c4b</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glide.service-portal</previous_claim_name>
+        <previous_claim_scope>com.glide.service-portal</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-27 11:25:01</sys_created_on>
+        <sys_id>b8397722878301109536ca67dabb35a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 11:25:01</sys_updated_on>
+    </sys_claim>
+</record_update>

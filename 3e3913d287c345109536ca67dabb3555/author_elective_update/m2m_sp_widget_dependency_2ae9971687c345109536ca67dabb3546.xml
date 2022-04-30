@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="DELETE">
+        <sp_dependency display_value="sp_codemirror_includes">016f19255b301200e39fc7ad31f91abd</sp_dependency>
+        <sp_widget display_value="Crypto SC Catalog Item">a2e9d3d287c345109536ca67dabb35f0</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 14:29:50</sys_created_on>
+        <sys_id>2ae9971687c345109536ca67dabb3546</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sp_codemirror_includes.Crypto SC Catalog Item</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">3e3913d287c345109536ca67dabb3555</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_2ae9971687c345109536ca67dabb3546</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 14:31:20</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Crypto">3e3913d287c345109536ca67dabb3555</claim_owner_scope>
+        <claim_timestamp>1806648addb0000001</claim_timestamp>
+        <metadata_update_name>m2m_sp_widget_dependency_2ae9971687c345109536ca67dabb3546</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Crypto</previous_claim_name>
+        <previous_claim_scope>3e3913d287c345109536ca67dabb3555</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 14:31:20</sys_created_on>
+        <sys_id>e44a1f1687c345109536ca67dabb3590</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 14:31:20</sys_updated_on>
+    </sys_claim>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Crypto_Global">3e3913d287c345109536ca67dabb3555</application>
+        <file_path/>
+        <instance_id>e3535c76dbfe85104d2bac44d49619ae</instance_id>
+        <instance_name>dev126358</instance_name>
+        <name>m2m_sp_widget_dependency_2ae9971687c345109536ca67dabb3546</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="sp_codemirror_includes">016f19255b301200e39fc7ad31f91abd</sp_dependency><sp_widget display_value="Crypto SC Catalog Item">a2e9d3d287c345109536ca67dabb35f0</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-26 14:29:50</sys_created_on><sys_id>2ae9971687c345109536ca67dabb3546</sys_id><sys_mod_count>1</sys_mod_count><sys_name>sp_codemirror_includes.Crypto SC Catalog Item</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Crypto">3e3913d287c345109536ca67dabb3555</sys_scope><sys_update_name>m2m_sp_widget_dependency_2ae9971687c345109536ca67dabb3546</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-26 14:31:20</sys_updated_on></m2m_sp_widget_dependency><sys_claim action="INSERT_OR_UPDATE"><claim_owner_scope display_value="Crypto">3e3913d287c345109536ca67dabb3555</claim_owner_scope><claim_timestamp>1806648addb0000001</claim_timestamp><metadata_update_name>m2m_sp_widget_dependency_2ae9971687c345109536ca67dabb3546</metadata_update_name><previous_claim_app_version>1.0.0</previous_claim_app_version><previous_claim_name>Crypto</previous_claim_name><previous_claim_scope>3e3913d287c345109536ca67dabb3555</previous_claim_scope><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-26 14:31:20</sys_created_on><sys_id>e44a1f1687c345109536ca67dabb3590</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-26 14:31:20</sys_updated_on></sys_claim></record_update>]]></payload>
+        <payload_hash>-646053744</payload_hash>
+        <record_name>sp_codemirror_includes.Crypto SC Catalog Item</record_name>
+        <reverted_from/>
+        <source>5cb89b9287c345109536ca67dabb35f9</source>
+        <source_table>sys_update_set</source_table>
+        <state>backedout</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 14:31:20</sys_created_on>
+        <sys_id>6c4a1f1687c345109536ca67dabb3592</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>1806648ae0d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 11:31:52</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>a44a1f1696c345102368c19218c7f492</update_guid>
+        <update_guid_history>a44a1f1696c345102368c19218c7f492:-646053744,6ee99716e7c34510a37d3a611dbfbb47:66773447</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sp_codemirror_includes.Crypto SC Catalog Item">89ca33a2878301109536ca67dabb351c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-27 11:31:52</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_dependency">m2m_sp_widget_dependency</sys_db_object>
+        <sys_id>01673094be3845098037e2e86d235cf1</sys_id>
+        <sys_metadata>2ae9971687c345109536ca67dabb3546</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sp_codemirror_includes.Crypto SC Catalog Item</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto_Global">3e3913d287c345109536ca67dabb3555</sys_scope>
+        <sys_scope_delete display_value="">45b45a2130b54f77a86ded52bdf0bb39</sys_scope_delete>
+        <sys_update_name>m2m_sp_widget_dependency_2ae9971687c345109536ca67dabb3546</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_dependency_2ae9971687c345109536ca67dabb3546">6c4a1f1687c345109536ca67dabb3592</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 11:31:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
