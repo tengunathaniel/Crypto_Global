@@ -197,7 +197,7 @@
 
 		getPrice: function() {
 			var obj = {};
-			obj.price = $scope.data.sc_cat_item.price_display;
+			obj.price = $scope.data.sc_cat_item.price;
 			obj.recurring_price = $scope.data.sc_cat_item.recurring_price_display;
 			obj.recurring_frequency = $scope.data.sc_cat_item.recurring_frequency;
 			return obj;
@@ -2014,14 +2014,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-26 14:29:50</sys_created_on>
         <sys_id>a2e9d3d287c345109536ca67dabb35f0</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>Crypto SC Catalog Item</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Crypto_Global">3e3913d287c345109536ca67dabb3555</sys_scope>
         <sys_update_name>sp_widget_a2e9d3d287c345109536ca67dabb35f0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-27 11:52:11</sys_updated_on>
+        <sys_updated_on>2022-05-31 06:46:01</sys_updated_on>
         <template><![CDATA[<div id="sc_cat_item" ng-if="::(data.recordFound && !data.not_for_mobile)" sn-atf-blacklist="IS_SERVICE_CATALOG">
   <sp-widget widget="c.orderItemModal" ng-if="c.orderItemModal"></sp-widget>
   <div class="row" ng-if="::data.sc_cat_item" ng-class="{'native-mobile': options.native_mobile == 'true'}">
